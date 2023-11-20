@@ -1,5 +1,5 @@
 # Config Post
 
-Selamat datang di repositori MDX saya di bidang teknologi IT! Repositori ini menjadi tempat penyimpanan untuk berbagai settingan konfigurasi server, seperti konfigurasi untuk HAProxy, Nginx, VPS, SSL, serta integrasi dengan CI/CD menggunakan GitHub Actions dan Docker. Semua elemen ini dibangun menggunakan format MDX, memungkinkan dokumentasi yang interaktif dan mudah dipahami. Dengan beragam settingan yang disediakan di repositori ini, diharapkan dapat membantu dan mempermudah dalam mengelola dan mengonfigurasi berbagai aspek teknologi IT terkini. Selamat menjelajahi dan semoga informasi yang tersedia bermanfaat dalam pengembangan dan pengelolaan sistem IT Anda!
+Welcome to my MDX repository in the field of IT technology! This repository serves as a storage space for various server configuration settings, such as configurations for HAProxy, Nginx, VPS, SSL, and integration with CI/CD using GitHub Actions and Docker. All these elements are built using the MDX format, allowing for interactive and easily understandable documentation. With the various settings provided in this repository, it is hoped that it can assist and simplify the management and configuration of various aspects of current IT technology. Enjoy exploring, and may the information available be useful in the development and management of your IT systems!
 
 _Free Clone,!_
