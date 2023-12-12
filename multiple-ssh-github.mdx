@@ -35,13 +35,13 @@ Generating public/private rsa key pair.
 The next line you will see would be:
 
 ```
-Enter file in which to save the key (/Users/sprlwrks/.ssh/id_rsa): 
+Enter file in which to save the key (/Users/rezkycodes/.ssh/id_rsa): 
 ```
 
-Here, you can specify a directory and filename for the ssh key that will be generated. The default is `/Users/sprlwrks/.ssh/id_rsa`. It will be saved in `/Users/sprlwrks/.ssh/` with the file name `id_rsa`.
+Here, you can specify a directory and filename for the ssh key that will be generated. The default is `/Users/rezkycodes/.ssh/id_rsa`. It will be saved in `/Users/rezkycodes/.ssh/` with the file name `id_rsa`.
 It will generate two files. `id_rsa` and `id_rsa.pub`. The `id_rsa.pub` contains your public key which you will use, you can give this to your team leader or to other people that you want. The `id_rsa` is the private key, __don't want to give this key to anyone__.
 
-In this case, since we are going to generate two ssh keys, we don't want to keep the default file name, set it to whatever name you want by giving it `/Users/sprlwrks/.ssh/file_name`. I named mine `id_rsa_personal`.
+In this case, since we are going to generate two ssh keys, we don't want to keep the default file name, set it to whatever name you want by giving it `/Users/rezkycodes/.ssh/file_name`. I named mine `id_rsa_personal`.
 
 The next line you will see would be:
 
@@ -54,13 +54,13 @@ If you type a passphrase here, you will have to remember that and type the same 
 With all that you should have gotten something that looks like this:
 
 ```
-aprilmintacpineda-MacBook-Pro:PWA-W88 aprilmintacpineda$ ssh-keygen -t rsa -b 4096 -C "me@example.com"
+rezkycodes$ ssh-keygen -t rsa -b 4096 -C "me@example.com"
 Generating public/private rsa key pair.
-Enter file in which to save the key (/Users/sprlwrks/.ssh/id_rsa): /Users/sprlwrks/.ssh/id_rsa_personal
+Enter file in which to save the key (/Users/rezkycodes/.ssh/id_rsa): /Users/rezkycodes/.ssh/id_rsa_personal
 Enter passphrase (empty for no passphrase): 
 Enter same passphrase again: 
-Your identification has been saved in /Users/sprlwrks/.ssh/id_rsa_personal.
-Your public key has been saved in /Users/sprlwrks/.ssh/id_rsa_personal.pub.
+Your identification has been saved in /Users/rezkycodes/.ssh/id_rsa_personal.
+Your public key has been saved in /Users/rezkycodes/.ssh/id_rsa_personal.pub.
 The key fingerprint is:
 0b:0a:9f:58:2d:c8:a3:87:f7:44:17:f6:2c:d8:b7:3a me@example.com
 The key's randomart image is:
