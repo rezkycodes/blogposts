@@ -1,0 +1,48 @@
+---
+title: 'Update NodeJs to Latest Version on Linux System'
+description: 'Learn how to seamlessly update Node.js to the latest version on your Linux system with our step-by-step guide. Stay current with the newest features, enhancements, and security patches to ensure optimal performance for your Node.js applications.'
+date: '2023-12-12'
+modified: '2023-12-12'
+image: 'https://raw.githubusercontent.com/rezkycodes/blogposts/main/images/update-nodejs-to-latest-version-on-linux-system.png'
+tags: ['nodejs','linux']
+---
+
+# Update Node.js with NVM (Node Version Manager)
+
+1. Start by updating the package repository with the command:
+
+```
+sudo apt update
+```
+2. Install NVM using the curl command:
+```
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+Alternatively, you use wget and run the command:
+```
+wget -q0- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+```
+3. Close and reopen the terminal for system to recognize the changes or run the command:
+
+```
+source ~/.bashrc
+```
+4. Then, verify if you have successfully installed NVM:
+
+```
+nvm --version
+```
+5. Before upgrading Node.js, check which version you have running on the system:
+```
+nvm ls
+```
+6. Now you can check for newly available releases with:
+```
+nvm ls-remote
+```
+<CustomImage src="https://raw.githubusercontent.com/rezkycodes/blogposts/main/images/nvmlist.png">
+7. To install the latest version, use the nvm command with the specific Node.js version: 
+```
+nvm install [version.number] or nvm install v20.10.0
+```
+
